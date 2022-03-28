@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  .container{
+      width: 100%;
+      overflow: hidden;
+      margin: auto;
+  }
+
+  *{margin: 0;padding: 0}
+
+/* navbar */
+
+  ul {
+      
+padding-right: 15%;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: transparent;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(233, 166, 23);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+/* .container{
+    background-image: url(images/image2.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+} */
+
+.header {
+  
+    display: flex;
+    width: 100%;
+    height: 40%;
+    position: relative;
+
+ }
+ .title{
+     position: absolute;
+     width: 50%;
+    height: 100%; 
+    margin-top: 200px;
+    margin-left: 50%;
+    
+ }
+ .title p{
+    color: rgb(134, 85, 12);
+ }
+ span.titlelabel{
+    color: rgb(134, 85, 12);
+    text-align: left;
+    display: block;
+    font-size: 80px;
+    font-weight: 900;
+ }
+ .content{
+     display: flex;
+     width: 100%;
+     height: 40%;
+ }
+ .content img{
+     width: 100%;
+ }
+.service{
+    margin-top: -70px;
+    background-image: url(images/grit.png);
+
+    height: 400px;
+     text-align: center;
+    width:110%;
+    transform:rotate(-4deg) translateX(-1%);
+    padding: 30px 0 ;
+    position: relative;
+    display: block;
+}
+    
+.service::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(198, 116, 32, 0.9);
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+.section-content{
+    position: relative;
+    z-index: 1;
+    transform:rotate(4deg);
+    margin: auto;
+    max-width: 1100px;
+  
+}
+.card{
+    display: block;
+   padding: 30px;
+    font-size: 20px;
+    margin-top: 70px;
+    box-sizing: border-box;
+
+}
+span.label{
+    text-align: right;
+    color: white;
+    display: block;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+p{
+    padding-top: 5px;
+    z-index: 9999;
+    color: white;
+    text-align: left;
+
+}
+H4{
+    background-color: white;
+}
+
+.info{
+    margin-top: -60px;
+    min-height: 1000px;
+    background-image: radial-gradient(white 20%,rgb(248, 214, 156) 90%);
+    width: 100%;
+}
+.coninfo{
+    width: 80%;
+    display: flex;
+
+}
+.inleft, .inright{
+    padding-top: 200px;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    z-index: 1;
+    box-sizing: border-box;
+}
+.inleft{
+    margin-top: 300px;
+}
+.inright img{
+    width: 100%;
+}
+span.labelinfo{
+    
+    color: rgb(39, 124, 57);
+    text-align: right;
+    display: block;
+    font-size: 80px;
+    font-weight: 900;
+}
+.text{
+    width: 50%;
+    float: right;
+}
+.text p{
+    text-align: right;
+    color: rgb(223, 90, 8);
+}
+/* .sec{
+margin-top: 40px;
+    width: 100%;
+    padding-top: 100px;
+} */
+/* section {
+    width:110%;
+    transform:rotate(-2deg) translateX(-1%);
+    padding: 30px 0 ;
+  } */
+
+
+
+  @media (min-width:600px){
+    .header {
+  
+        display: flex;
+        width: 100%;
+        height: 30%;
+    
+     }
+    .section-content{
+        display: flex;
+        justify-content: space-around;
+        width: 70%;
+        height: 80%;
+    
+    }
+    .card{
+        width: 35%;
+
+    }
+    span.label{
+        text-align: right;
+        color: white;
+        display: block;
+        font-size: 60px;
+        font-weight: 900;
+    }
+    .cardleft{
+        text-align: right;
+    }
+
+  }
