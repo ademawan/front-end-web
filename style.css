@@ -27,14 +27,15 @@ padding-right: 15%;
   
   li a {
     display: block;
-    color: rgb(233, 166, 23);
+    color: rgb(115, 57, 23);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    
   }
   
   li a:hover {
-    background-color: #111;
+    color: rgb(238, 148, 97);
   }
 
 /* .container{
@@ -61,14 +62,22 @@ padding-right: 15%;
     
  }
  .title p{
-    color: rgb(134, 85, 12);
+    color: rgb(161, 110, 61);
+    font-size: 25px;
  }
  span.titlelabel{
-    color: rgb(134, 85, 12);
+    color: rgb(132, 68, 11);
     text-align: left;
     display: block;
     font-size: 80px;
     font-weight: 900;
+ }
+ span.linetitlelabel{
+     display: block;
+     height: 2px;
+     width: 130px;
+     margin-bottom: 5px;
+     background-color: rgb(218, 125, 13);
  }
  .content{
      display: flex;
@@ -126,7 +135,21 @@ span.label{
     font-size: 30px;
     font-weight: 500;
 }
-
+span.lineservice{
+    width: 120px;
+    display: block;
+    height: 2px;
+    background-color: azure;
+    float: right;
+}
+span.lineservice2{
+    width: 120px;
+    display: block;
+    height: 3px;
+    background-color: azure;
+    float: right;
+    margin-top: 20px;
+}
 p{
     padding-top: 5px;
     z-index: 9999;
@@ -180,17 +203,6 @@ span.labelinfo{
     text-align: right;
     color: rgb(223, 90, 8);
 }
-/* .sec{
-margin-top: 40px;
-    width: 100%;
-    padding-top: 100px;
-} */
-/* section {
-    width:110%;
-    transform:rotate(-2deg) translateX(-1%);
-    padding: 30px 0 ;
-  } */
-
 
 
   @media (min-width:600px){
