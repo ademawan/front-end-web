@@ -259,7 +259,14 @@ span.labelinfo{
     text-align: right;
     color: rgb(223, 90, 8);
 }
-
+h4 {
+    color:   rgb(198, 116, 32);
+    ;
+}
+.description{
+    color: rgb(243, 216, 190);
+    
+}
 
   @media (min-width:600px){
     .header {
