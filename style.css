@@ -126,6 +126,7 @@ padding-right: 15%;
     font-size: 20px;
     margin-top: 70px;
     box-sizing: border-box;
+    height: 0;
 
 }
 span.label{
@@ -180,12 +181,28 @@ H4{
     justify-content: center;
     z-index: 1;
     box-sizing: border-box;
+ 
 }
 .inleft{
     margin-top: 300px;
+    transform: translateY(150%);
+    transition: all 1s;
+  
+}
+.inright{
+    transform: translateX(150%);
+    transition: all 1s;
+  
+}
+.slideinleft{
+    transform: translateY(0);
 }
 .inright img{
     width: 100%;
+  
+}
+.slideinright{
+    transform: translateX(0);
 }
 span.labelinfo{
     
@@ -236,3 +253,35 @@ span.labelinfo{
     }
 
   }
+
+  /* animasi */
+
+  .animasi{
+      animation: animasiDivService 2s ease;
+  }
+
+  @keyframes animasiDivService{
+    from{
+        height: 0;
+    }
+    to{
+        height: 100%;
+    }
+
+}
+
+
+  /* @keyframes animasiDivService{
+      0%{
+          width: 200px;
+      }
+      50%{
+          width: 500px;
+          height: 200px;
+      }
+      100%{
+        width: 500px;
+        height: 500px;
+    }
+  }
+   */
